@@ -18,7 +18,11 @@
         "version": "3.2.2"
     },
     "doctrine/dbal": {
+<<<<<<< HEAD
         "version": "3.3.4"
+=======
+        "version": "3.3.3"
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
     },
     "doctrine/deprecations": {
         "version": "v0.5.3"
@@ -128,6 +132,21 @@
             "./config/packages/sensio_framework_extra.yaml"
         ]
     },
+<<<<<<< HEAD
+=======
+    "symfony/apache-pack": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "9d254a22efca7264203eea98b866f16f944b2f09"
+        },
+        "files": [
+            "./public/.htaccess"
+        ]
+    },
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
     "symfony/asset": {
         "version": "v6.0.3"
     },
@@ -345,6 +364,18 @@
     "symfony/proxy-manager-bridge": {
         "version": "v6.0.6"
     },
+<<<<<<< HEAD
+=======
+    "symfony/requirements-checker": {
+        "version": "2.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "02c6e4b9b117c39e8a23eab7f3840ef6e62293b9"
+        }
+    },
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
     "symfony/routing": {
         "version": "6.0",
         "recipe": {

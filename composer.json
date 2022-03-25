@@ -7,13 +7,22 @@
         "php": ">=8.0.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+<<<<<<< HEAD
         "doctrine/annotations": "^1.0",
+=======
+        "doctrine/annotations": "^1.13",
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         "doctrine/doctrine-bundle": "^2.5",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.11",
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.2",
+<<<<<<< HEAD
         "sensio/framework-extra-bundle": "^6.1",
+=======
+        "sensio/framework-extra-bundle": "^6.2",
+        "symfony/apache-pack": "^1.0",
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         "symfony/asset": "6.0.*",
         "symfony/console": "6.0.*",
         "symfony/doctrine-messenger": "6.0.*",
@@ -26,12 +35,20 @@
         "symfony/intl": "6.0.*",
         "symfony/mailer": "6.0.*",
         "symfony/mime": "6.0.*",
+<<<<<<< HEAD
         "symfony/monolog-bundle": "^3.0",
+=======
+        "symfony/monolog-bundle": "^3.7",
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         "symfony/notifier": "6.0.*",
         "symfony/process": "6.0.*",
         "symfony/property-access": "6.0.*",
         "symfony/property-info": "6.0.*",
         "symfony/proxy-manager-bridge": "6.0.*",
+<<<<<<< HEAD
+=======
+        "symfony/requirements-checker": "^2.0",
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         "symfony/runtime": "6.0.*",
         "symfony/security-bundle": "6.0.*",
         "symfony/serializer": "6.0.*",
@@ -41,7 +58,11 @@
         "symfony/validator": "6.0.*",
         "symfony/web-link": "6.0.*",
         "symfony/webapp-meta": "^1.0",
+<<<<<<< HEAD
         "symfony/webpack-encore-bundle": "^1.12",
+=======
+        "symfony/webpack-encore-bundle": "^1.14",
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         "symfony/yaml": "6.0.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
@@ -79,7 +100,12 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
+<<<<<<< HEAD
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
+=======
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+            "requirements-checker": "script"
+>>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
         },
         "post-install-cmd": [
             "@auto-scripts"
