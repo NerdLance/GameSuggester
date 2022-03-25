@@ -14,11 +14,8 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
-<<<<<<< HEAD
-=======
     },
     "dependencies": {
         "webpack": "^5.70.0"
->>>>>>> fa2e1fdc34a46a1c4d1dc417a9e0d2a3e24f549f
     }
 }
